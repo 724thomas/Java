@@ -1,4 +1,4 @@
-package me.java.comment;
+package src.java.comment;
 
 public class HelloWorld {
     public static void main(String[] args){
