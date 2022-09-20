@@ -27,5 +27,22 @@ public class Main {
         byte bb = (byte)10000;     // Type casting -> 데이터 손실
         short ss = (short)10000;   // Type casting -> 데이터 손실
 
+
+
+        // 쓰레기 값 - 범위를 넘으면 엉터리 값을 저장한다.
+        byte var1=125;
+        int var2 = 125;
+
+        for (int k=0; k<5; k++){
+            var1++;
+            var2++;
+            System.out.println("var1: " + var1 + "\t" + "var2: " + var2);
+        }
+
+        // 문자열 + 문자열 = 문자열의 결합 "a" + "b" = "ab"
+        // 문자열 + 정수 = 문자열의 결합 "a" + 130 = "a130"
+
+
+
     }
 }
